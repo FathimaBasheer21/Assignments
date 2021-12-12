@@ -1,0 +1,5 @@
+site_location.configuration:
+  title:                'Site Location'
+  description:          'To view the site location and current time.'
+  parent:               system.admin_config_development
+  route_name:           site_location.configuration

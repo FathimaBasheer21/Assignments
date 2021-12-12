@@ -1,0 +1,6 @@
+name: Site Location
+type: module
+description: Provides the site the locationa and current time of the location.
+version: '8.x-1.0'
+core: '8.x'
+core_version_requirement: ^8 || ^9

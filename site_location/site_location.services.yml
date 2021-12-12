@@ -1,0 +1,4 @@
+services:
+  site_location.location_manager:
+    class: Drupal\site_location\LocationManager
+    arguments: ["@config.factory", "@date.formatter"]

@@ -1,0 +1,18 @@
+{#
+/**
+* @file
+* Theme overide to display a block.
+* 
+*/
+#}
+<div class = "time-zone-container">
+    <div class="country">
+        {{ 'Country -' |t }} {{ data.country }}
+    </div>
+    <div class="city">
+        {{ 'City -' |t }} {{ data.city }}
+    </div>
+    <div class="time-zone">
+    {{ data.time }}
+    </div>
+</div>
