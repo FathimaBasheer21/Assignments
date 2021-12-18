@@ -10,6 +10,7 @@ use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Drupal\site_location\LocationManager;
+use Drupal\Core\Cache\Cache;
 
 /**
  * Provides a block for displaying time that are fetched from the time zone.
@@ -95,7 +96,6 @@ class TimeZone extends BlockBase implements ContainerFactoryPluginInterface {
     return [
       "#theme" => 'site_location',
       "#data" => $data,
-      '#cache' => ['max-age' => 0],
      ];
   }
 
